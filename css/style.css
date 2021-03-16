@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+
+:root{
+    --color-primary: #6c41e4;
+    --color-title: #000;
+    --aling-title: left;
+    --padding-container: 100px 0;
+    --width-container: 90%;
+    --max-width-container: 1200px;
+    --color-btn: #6c41e4;
+    --text-btn: #fff;
+    --padding-btn: 20px 35px;
+    --height-shape:18em; 
+
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    background-color: #E5E5F7;
+opacity: 1;
+background-image:  radial-gradient(#444CF7 1px, transparent 1px), radial-gradient(#444CF7 1px, #E5E5F7 1px);
+background-size: 40px 40px;
+background-position: 0 0,20px 20px;
+}
+
+.container{
+    width: var(--width-container);
+    max-width: var(--max-width-container);
+    padding: var(--padding-container);
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.footer__icon{
+    width: 30px;
+   fill: white;
+    background: steelblue;
+}
+
+.footer__iconig{
+
+    width: 30px;
+    fill: black;
+    background: blueviolet;
+}
+
+.hero{
+    height: 100vh;
+    min-width: 500px;
+    position: relative;
+    --padding-container: 0;
+}
+.hero__container{
+    display: grid;
+    height: 100%;
+    grid-template-columns: 3fr 2fr;
+    place-items: center;
+    gap: 20px;
+}
+
+.hero__img{
+    width: 95%;
+}
+
+.hero__title{
+    font-size: 4rem;
+
+}
+
+.hero__copy{
+    font-size: 1.2 rem;
+    margin: 25px 0;
+}
+
+.hero__cta{
+    display: inline-block;
+    background: var(--color-btn);
+    padding:var(--padding-btn);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.hero::after{
+    content: "";
+    display: block;
+    position: absolute;
+    height: var(--height-shape);
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background: rgb(220, 223, 38);
+    z-index: -1;
+    clip-path: polygon(0 0, 100% 0%, 100% 5%, 0 5%);
+}
+
+.main{
+    background; #fff;
+}
+
+.title{
+    font-size: 2.5rem;
+    text-align: var(--aling-title);
+    color: var(--color-title)
+}
+
+.title--border::after{
+    content: "";
+    display: block;
+    width: 100px;
+    margin-top: 20px;
+    height: 4px;
+    background: var(--color-primary);
+}
+
+.alumno{
+    text-align: center;
+    border-bottom: 5px solid #95b1a4;
+    --padding-container: 20px 0 60px;
+}
