@@ -113,6 +113,16 @@ background-position: 0 0,20px 20px;
     background: var(--color-primary);
 }
 
+.cta{
+    display: inline-block;
+    background:var(--color-btn);
+    color:var(--text-btn);
+    padding:var(--padding-btn);
+    text-align: center;
+    text-decoration: none;
+    
+}
+
 .alumno{
     text-align: center;
     border-bottom: 5px solid #95b1a4;
@@ -163,14 +173,44 @@ background-position: 0 0,20px 20px;
     width: 90%;
 }
 
-.about__picture{
-    align-items: right;
-    width: 50;
-    height: 50;
-}
+
+
 .about__paragraph{
     margin: 20px 0;
     line-height: 1.5;
     font-weight: 300;
 }
+
+.about__picture{
+    text-align: center;
+    
+
+}
+
+.about__img{
+    width: 95%;
+}
+
+.card{
+    background: #a7a7a7;
+    
+}
+
+.card__copy{
+    margin-top: 20px;
+}
+
+.card__conatiner{
+    width: 99%;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+   
+}
+
+
+
+
 
