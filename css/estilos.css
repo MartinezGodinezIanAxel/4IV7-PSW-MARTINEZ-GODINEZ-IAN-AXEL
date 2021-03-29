@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,300&display=swap');
+
+body{
+    background-color: #404046;
+opacity: 0.8;
+background-image:  linear-gradient(30deg, #f7455b 12%, transparent 12.5%, transparent 87%, #f7455b 87.5%, #f7455b), linear-gradient(150deg, #f7455b 12%, transparent 12.5%, transparent 87%, #f7455b 87.5%, #f7455b), linear-gradient(30deg, #f7455b 12%, transparent 12.5%, transparent 87%, #f7455b 87.5%, #f7455b), linear-gradient(150deg, #f7455b 12%, transparent 12.5%, transparent 87%, #f7455b 87.5%, #f7455b), linear-gradient(60deg, #f7455b77 25%, transparent 25.5%, transparent 75%, #f7455b77 75%, #f7455b77), linear-gradient(60deg, #f7455b77 25%, transparent 25.5%, transparent 75%, #f7455b77 75%, #f7455b77);
+background-size: 36px 63px;
+background-position: 0 0, 0 0, 18px 32px, 18px 32px, 0 0, 18px 32px;
+}
+

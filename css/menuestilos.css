@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+    background-color: #fcfcff;
+opacity: 0.8;
+background-image: radial-gradient(#000000 0.9px, #fcfcff 0.9px);
+background-size: 18px 18px;
+text-align: center;
+}
