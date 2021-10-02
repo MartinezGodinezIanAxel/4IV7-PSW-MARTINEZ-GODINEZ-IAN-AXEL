@@ -1,0 +1,64 @@
+body{
+	font:15px Arial,Helvetica,sans-serif;
+	padding: 0;
+	margin: 0;
+	
+
+}
+
+.contenedor{
+	width:80%;
+	margin:auto;
+	overflow:hidden;
+}
+
+.cuadro{
+		resize: none;
+}
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+header{
+	background-color: rgba(85, 238, 111, 0.74);
+	color:rgb(255, 255, 255);
+	padding-top: 30px;
+	border-bottom: 5px solid #0a0d0e;
+
+
+}
+header a{
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+header li{
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+header #marca{
+	float: left;
+
+}
+
+header #marca h1{
+	margin:0;
+
+}
+header nav{
+	float:right;
+	margin-top:10px;
+}
+header.resaltado,header.actual a{
+	color: #6bddbd;
+	font-weight: bold;
+
+}
+header a:hover{
+	color:#040a08;
+	font-weight: bold;
+
+}
