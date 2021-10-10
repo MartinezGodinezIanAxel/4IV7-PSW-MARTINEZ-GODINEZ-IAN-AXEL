@@ -92,7 +92,7 @@ public class Descifrars {
       
       JFileChooser file = new JFileChooser();
       
-      file.showOpenDialog(file);
+      file.showOpenDialog(null);
       File abre = file.getSelectedFile();
       
       if(abre!= null){

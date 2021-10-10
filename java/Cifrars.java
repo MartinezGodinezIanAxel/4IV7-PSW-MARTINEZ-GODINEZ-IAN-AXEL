@@ -47,7 +47,7 @@ public class Cifrars {
       JFileChooser file = new JFileChooser();
       FileNameExtensionFilter filter = new FileNameExtensionFilter("TEXT FILES", "txt", "text");
       file.setFileFilter (filter);
-      file.showOpenDialog(file);
+      file.showOpenDialog(null);
       File abre = file.getSelectedFile();
       
       if(abre!= null){
@@ -73,7 +73,7 @@ public class Cifrars {
          // generar mis archivos
          
          FileInputStream in = new FileInputStream(path);
-         FileOutputStream out = new FileOutputStream(path+".cifrado");
+         FileOutputStream out = new FileOutputStream("C:/Users/Ian/Desktop/cifrado y decifrado txt/resultado.txt");
          
          //lectura
          
