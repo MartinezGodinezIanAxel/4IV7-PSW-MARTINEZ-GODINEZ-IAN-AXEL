@@ -43,47 +43,8 @@ function leerArchivo(e) {
 function validar(){
     var cadena = document.getElementById("contenido-archivo").value;
     var clave = document.getElementById("demo1").value;
-    var tipo = document.getElementById('tipo').value;
     if (cadena == "" || clave =="") {
         alert("Campos vacios");
-        var cond = false;}
-                 
-        else 
-        var cond = false;
-
- else if (tipo.equals("128"){
-if (clave.lenght== 16{}
-cond = true;
-}else{
-cond =  false;
-}
-}
-
-else if(tipo.equals("192"){
-if (clave.lenght== 24{}
-cond = true;
-}else{
-cond = false;
-}
-}
-
-else if(tipo.equals("256"){
-if (clave.lenght== 32{}
-cond = true;
-}else{
-cond = false;
-}
-}
-
-else{
-cond = false;
-}
-
-if(cond = true){
-cifradito();
-leerArchivo();
-descargar();
-}
     }else if(clave.length < 16 || clave.length > 256){
         alert("la clave debe ser mayor de 16 y menor 256 caracteres");
     }else{
